@@ -3,16 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vídeo de Fundo</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
-    
-    <div class="video-background">
-        <video autoplay loop muted>
-            <source src="video-apresentacao.mp4" type="video/mp4">
-            Seu navegador não suporta o vídeo.
-        </video>
+    <section class="apresentacao">
         <header class="menu">
         
             <ul class="menu-lista">
@@ -22,14 +18,29 @@
                 <p class="menu-item">AD+ Influencers </p>
             </ul>
         </header>
-        <div class="dark-overlay"></div>
-        
+        <video id="background-video" autoplay loop muted >
+            <source src="imagens/adriele-video.mp4" type="video/mp4">
+          </video>
+         
+    </section>
+    <div class="box-logo"  data-aos="fade-down"  data-aos-duration="900">
+        <img src="imagens/Adrielle-logo.png" alt="" class="imagem-logo" >
+        <div class="seguidores">
+            <img src="imagens/membros-ordem.webp" alt="" width="70">
+            <h1>+746,000 Seguidores</h1>
+        </div>
     </div>
-    <img src="Adrielle.png" alt="" width="400" height="500">
-    <div class="apresentacao">
+      
+    <div class="apresentacao-box">
         <div class="texto-sobre">
-            <h1 class="titulo-sobre">Influencer e empresária apaixonada por compartilhar histórias.</h1>
-            <p class="paragrafo-sobre">
+
+            <h1 class="titulo-sobre" data-aos="fade-right" data-aos-easing="linear"
+            data-aos-duration="500">Olá, <br>
+            Me chamo Adrielle </h1>
+
+            <h2 class="subtitulo-sobre">Influencer e empresária apaixonada <br> por compartilhar histórias.</h2>
+
+            <p class="paragrafo-sobre paragrafo">
                 Minha missão é inspirar pessoas e marcas com conteúdos de alto impacto.
                 14 anos de experiência nas redes sociais, liderando grupos e assessorando profissionais.
                 À frente de uma agência de marketing de influenciadores, ajudando marcas a alcançar milhões de pessoas.
@@ -38,9 +49,21 @@
             
                 Minha caminhada de fé e gratidão prova que grandes sonhos podem se tornar realidade!</p>
         </div>
-        <img src="adriele.jpeg" alt="" width="300">
-        
+        <img src="imagens/adriele-sobre.png" alt="" width="340">
+        <div class="divisao"></div>
+            
     </div>
-  
+    
+    <div class="viagens">
+        
+        <h1 class="titulo-influencer" data-aos="fade-right" data-aos-easing="linear"
+        data-aos-duration="500">Influencer Digital</h1>
+        <p class="paragrafo-influencer paragrafo">Através de minhas redes sociais, compartilho minhas experiências e vivências, com o objetivo de inspirar e transmitir o que há de melhor em cada destino. Estou sempre procurando por novas parcerias e oportunidades para colaborar com marcas e destinos que compartilhem meus valores e paixão!</p>
+        <iframe src="https://widget.taggbox.com/2155175" style="width:100%;height:600px;border:none;"></iframe>
+    </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 </body>
 </html>

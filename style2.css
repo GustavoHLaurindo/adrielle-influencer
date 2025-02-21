@@ -33,8 +33,18 @@ body, html{
   .box-logo{
     display: flex;
     align-items: center;
+    flex-direction: column;
     height: 70vh;
+    gap: 40px;
     justify-content: center;
+  }
+  .seguidores{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .seguidores h1{
+    font-size: 1em;
   }
   .menu{
     margin-top: 20px;
@@ -64,11 +74,38 @@ body, html{
   
     letter-spacing: .02em;
   }
-  .subtitulo-sobre{
+  .subtitulo-sobre {
     font-weight: 600;
     font-size: 1.7em;
     margin-bottom: 20px;
   }
- 
+ .viagens{
+  padding: 10px 20px;
+  background-color: #e9e7e8;
+ }
+ .titulo-influencer{
+  font-size: 2.3em;
+    margin-bottom: 20px;
+    font-weight: bolder;
+   
+    color: rgb(243, 179, 2);
+    font-family: "geist";
+ }
+ .divisao{
+  margin: 15px -20px -20px -20px;
+  height: 40px;
+  width: 100vw;
+  background-image: url(imagens/bg-folha.webp);
+  
+  background-position: top center;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+ }
+ .paragrafo-influencer{
+  font-size: 1.05rem;
+  line-height: 190%;
+  color: black;
+  letter-spacing: .02em;
+ }
   
   
